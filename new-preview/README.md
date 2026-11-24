@@ -17,12 +17,12 @@ The seven image-led slides follow the primary navigation exactly:
 Each slide has its own reference photograph, headline, description and CTA to the relevant homepage section. Desktop and mobile both have named controls beneath the carousel, arrow controls, autoplay/pause, and mobile swipe support. The existing seven-card visual navigation remains intact.
 
 ## Image reliability
-The old Unsplash references were removed. All image elements have a primary reference URL, a secondary image source and a locally committed textile SVG fallback so unavailable third-party images do not leave broken-image icons. Third-party CDN access and live rendering are not guaranteed; replace these URLs with owned photographs hosted in this folder before production. The reference photographs are not actual Made in Alipur merchandise, team members, outlets or artisans.
+The old Unsplash references and failing Tanya Carlson CDN URL were removed. All image elements have a primary reference URL, a secondary image source and a locally committed textile SVG fallback so unavailable third-party images do not leave broken-image icons. Third-party CDN access and live rendering are not guaranteed; replace these URLs with owned photographs hosted in this folder before production. The reference photographs are not actual Made in Alipur merchandise, team members, outlets or artisans.
 
 Reference photography sources used for the concept:
 - Khaadi: https://uk.khaadi.com/floral-cambric-kurta/1-26-140-A-A-VG_MULTI.html and https://us.khaadi.com/new-in/ready-to-wear/
 - Express Tribune: https://tribune.com.pk/story/2119583/chitrali-woman-made-waves-milan-fashion-week and https://tribune.com.pk/story/649063/a-rainbow-of-colours-at-brands-just-pret-life-style
-- Tanya Carlson: https://tanyacarlson.com/blogs/news/the-creative-process-aw22-exclusive-prints-a-collaboration-with-julie-maclean
+
 - Wallonia: https://www.wallonia.be/fr/actualites/les-belges-histoires-valerie-barkowski-une-nomade-intemporelle
 - Rangreza: https://rangreza.net/collections/eid-dresses
 - Mahezon: https://mahezon.in/products/festive-embroidery-sequence-kid-girl-kurti-palazzo-with-dupatta-suit
@@ -39,3 +39,6 @@ Reference photography sources used for the concept:
 - assets/textile-fallback.svg
 
 This is a static visual preview, not a live shop. Product names and merchandise are illustrative; checkout, inventory, collaboration enquiries and newsletter subscriptions are not connected. Use the existing GitHub Pages deployment workflow.
+
+## Maintenance
+Carousel initialisation uses arrays from querySelectorAll for slides, dots and labelled controls. Header, mobile drawer and footer use the plain-text Made in Alipur wordmark. A folder-local favicon is included.
