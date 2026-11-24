@@ -7,7 +7,7 @@ function imageRecovery(img){
   }
   if(img.dataset.imageStage==='local')return;
   img.dataset.imageStage='local';img.dataset.imageFallback='true';
-  img.src='./assets/textile-fallback.svg#'+(img.dataset.fallback||'fashion');
+  img.src='./assets/textile-fallback.svg';
 }
 document.addEventListener('error',e=>{if(e.target?.tagName==='IMG')imageRecovery(e.target)},true);
 document.querySelectorAll('img').forEach(img=>{if(img.complete&&!img.naturalWidth)imageRecovery(img)});
