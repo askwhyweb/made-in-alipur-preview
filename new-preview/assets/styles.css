@@ -115,3 +115,10 @@ img[data-image-fallback="true"]{object-fit:cover;background:#eadbcb}
 .hero-slide img{object-position:var(--image-pos,center 30%)!important}
 }
 @media(max-width:620px){.hero-side{gap:7px}.hero-side button{font-size:19px}.hero-dots{gap:6px}.hero-dots button{height:7px;width:7px}.hero-content h1{font-size:clamp(46px,12vw,64px)}.hero-primary-nav button{flex-basis:126px;font-size:9px}.hero-primary-nav .slide-number{font-size:18px}.hero-ui{left:17px;right:17px}}
+
+/* Plain text brand wordmark; keep navigation and layout intact. */
+.wordmark{display:inline-block;font:700 29px/1 var(--serif);letter-spacing:-.035em;white-space:nowrap;color:inherit}
+.header-row>a{min-width:0}
+.footer .wordmark{font-size:29px}
+@media(max-width:900px){.header-row .wordmark{font-size:25px}.header-row>a{justify-self:center}}
+@media(max-width:400px){.header-row .wordmark{font-size:22px}.header-row{grid-template-columns:37px 1fr 66px;gap:4px}}
