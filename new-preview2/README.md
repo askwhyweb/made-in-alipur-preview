@@ -1,0 +1,2 @@
+# Made in Alipur · new-preview2
+Standalone static HTML, responsive CSS and JavaScript. Story-first homepage, 15-second photographic storyboard instead of actual film, three-slide collection carousel, collaboration and Journal. Dedicated internal pages and local image fallbacks. Image credits at credits.html. No connected inventory, checkout, account, enquiry submission or confirmed outlet details. Real photography and artisan film pending. CSS is standalone; production Shopify/Tailwind conversion not included. Existing previews and workflow untouched.
